@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Skkvote</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./js/create_wallet.js"></script>
+    <link rel="stylesheet" type="text/css"  href='./css/create_walle.css'>
+</head>
+<body>
+        <div class="create_wallet">
+                <div class= "skkvote"><h1>Skkvote</h1>
+                </div>
+                <div class="wallet">
+                    <button id="getAddress" onclick="generate_wallet();">생성하기</button>
+                    <div id="p">
+                    <p>wallet address:</p>
+                    <p>Private key:</p>
+                    </div>
+                  <button id="vault" onclick="vault_click();">vault 서비스 이용하기</button>
+                </div>
+                <br />
+                <div>
+                    <button id="vote" onclick="location.href='voting.html'">
+                        투표하러가기
+                    </button>
+                </div>    
+        </div>
+</body>
+</html>
